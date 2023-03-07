@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg_img {
+  background-image: url(../../assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.nav_color {
+  background-color: transparent;
+}
+
+/* .shadow_box { 
+	box-shadow:0px 4px 50px rgba(0, 0, 0, 0.15000000596046448);
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:822px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	position:absolute;
+} */
+.para1 {
+  color: rgba(98.81249696016312, 96.47255972027779, 94.2835883796215, 1);
+  width: 850px;
+  height: 240px;
+  position: absolute;
+  left: 65px;
+  top: 370px;
+  text-align: justify;
+  font-size: 17px;
+  letter-spacing: 0;
+}
+
+.fine_art {
+  color: rgba(123.24999645352364, 87.71990418434143, 42.62396201491356, 1);
+  width: 632px;
+  height: 60px;
+  position: absolute;
+  left: 65px;
+  top: 310px;
+  text-align: left;
+  font-size: 40px;
+  letter-spacing: 0;
+}
+
+.im {
+  color: rgba(0, 0, 0, 1);
+  width: 747px;
+  height: 105px;
+  position: absolute;
+  left: 65px;
+  top: 225px;
+  text-align: left;
+  font-size: 70px;
+  letter-spacing: 0;
+}
+
+.hola {
+  color: rgba(237.0000010728836, 167.00000524520874, 81.00000277161598, 1);
+  width: 188px;
+  height: 108px;
+  position: absolute;
+  left: 65px;
+  top: 160px;
+  text-align: left;
+  font-size: 72px;
+  letter-spacing: 0;
+}
+
+.image {
+  position: absolute;
+  top: 150px;
+  left: 980px;
+  width: 430px;
+  height: 545px;
+  border-top-left-radius: 69px;
+  border-top-right-radius: 69px;
+  border-bottom-left-radius: 69px;
+  border-bottom-right-radius: 69px;
+  /* border:rgba(237.0000010728836, 167.00000524520874, 81.00000277161598, 1);
+	border-radius: 25%; */
+}
+.button {
+  position: absolute;
+  left: 65px;
+  top: 570px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  background-color: rgba(
+    237.0000010728836,
+    167.00000524520874,
+    81.00000277161598,
+    1
+  );
+  width: 212px;
+  height: 65px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+}
+.overflow {
+  overflow: hidden;
+}
+.button_txt {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: 45px;
+  position: absolute;
+  left: 30px;
+  top: 570px;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+html {
+  overflow: hidden;
+}
